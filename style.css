@@ -1,0 +1,549 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.hero_header{
+    display: flex; /* Use flexbox */  
+    justify-content: center; /* Center flex items horizontally */  
+    align-items: center; /* Center flex items vertically */  
+    /* height: 100vh; */
+
+   
+}
+
+
+.header{
+    width: 90%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; /* Center the text horizontally */  
+    margin: 35px 0;
+
+    /* margin: 50px 150px; */
+}
+
+.nav_links{
+    width: 500px;
+    height: 27px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    
+}
+
+.sign_up_btn button{
+    width: 176px;
+    height: 60px;
+    background-color: black;
+
+}
+
+.sign_up_btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero_section{
+    width: 95%;
+    height: 120vh;
+    border: 2px solid transparent;
+    position: relative;
+
+    
+}
+
+
+.hero_section h1{
+    font-size: 100px;
+    font-family: sans-serif;
+    line-height: 1;
+    
+}
+
+.hero_section p{
+    width: 600px;
+    height: 168px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.hero_section button{
+    width: 176px;
+    height: 60px;
+    background-color: black;
+    /* margin-bottom: 100px; */
+}
+
+.hero_section button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero_counter{
+    margin: 100px 0;
+    display: flex;
+}
+
+.hero_counters_1{
+    width: 150px;
+    height: 100px;
+
+    
+}
+
+.hero_counters_1 h3{
+    height: 5px;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: Arial;
+    color: #545454;
+}
+
+.hero_counters_1 > p{
+    word-spacing: 1px;
+    font-size: 20px;
+    color: #545454;
+}
+
+
+
+.hero_section_img1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero_img{
+    float: right;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    z-index: -1;
+    margin-right: 90px;
+}
+
+.hero_section_img2{
+    position: absolute;
+    /* float: right; */
+    margin-left: 0px;
+    margin-top: 165px;
+} 
+
+.rectangle{
+    position: absolute;
+    right: 350px;
+    top: 135px;
+}
+
+.arrow_down{
+    position: absolute;
+    /* float: right; */
+    top: 380px;
+    left: 435px;
+    
+}
+
+.service h1{ 
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.line{
+    margin: 10px 5px;
+}
+
+.service_icon{
+    margin: 0 0;
+    /* border: 1px solid red; */
+}
+
+.service_card h3{
+    margin: 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+.service_card{
+    width: 380px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.service_details{
+    width: 370px;
+    /* border: 2px solid black; */
+}
+
+.service_details p{
+    margin: 10px 0;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service_icon{
+    margin: 0 0;
+    /* border: 2px solid blue; */
+ 
+}
+
+.service_card_wrapper{
+    margin: 0px 0;
+    display: flex;
+}
+
+.section4{
+    margin: 100px 0;
+    display: flex;
+    width: 100%;
+}
+
+.section4_details h2{
+    margin: 0 0;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.section4_details > p{
+    margin: 50px 0;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.rectangle_card{
+    width: 100%;
+    height: 70px;
+    margin: 20px 0;
+    display: flex;
+    /* border: 2px solid black; */
+    position: relative;
+    box-shadow: 0px 2px 3px -3px;
+}
+
+.rectangle_card p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0;
+    align-content: center;
+}
+
+.rectangle_card img{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    /* width: 20px;
+    height: 20px; */
+    
+}
+
+.section4 button{
+    width: 176px;
+    height: 60px;
+    margin: 50px 0;
+    background-color: black;
+    /* margin-bottom: 100px; */
+}
+
+.section4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section5{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    
+}
+
+.section5_img{
+    position: absolute;
+    right: 0;
+}
+
+.section5_icons{
+    width: 70px;
+    height: 55vh;
+    display: grid;
+    place-items: center;
+    padding: 10px 0;
+
+}
+
+
+
+.section5_header{
+    width: 50%;
+    display: flex;
+
+}
+
+.section5_header{
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+
+.section5_detail{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+
+}
+
+.section5_details h4{
+    font-size: 17px;
+    margin: 2px 0;
+    line-height: 0.9;
+    font-family: Verdana, sans-serif;
+
+}
+
+.section5_details_info{
+    margin: 0 0;
+    margin-bottom: px;
+    padding: 20px 0;
+}
+
+
+.section5_details_info p{
+    font-family: Verdana, sans-serif;
+
+    font-size: 15px;
+
+    margin-left: 0;
+    padding-bottom: 50px;
+    
+}
+
+.section6{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    margin: 100px 0;
+    
+}
+
+.section6_img{
+    display: flex;
+    
+}
+
+.arrow{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    
+}
+
+
+.section6_img h2{
+    font-family: in;
+    font-size: 45px;
+    margin: 0 50px;
+}
+
+.section6_card_sec{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.section6_card{
+    border: 20px solid white;
+    width: 400px;
+    height: 400px;
+    padding: 0 20px;
+    background-color: #1F1F1F;
+}
+
+.section6_card h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.section6_card p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.card_profile_img {
+    height:50px;
+    display: flex;
+    
+}
+
+.card_profile_img img{
+    margin: 0 0;
+}
+
+.profile_info{
+    margin 0 0;
+
+}
+
+.profile_info p{
+    margin: 0 0;
+}
+
+.newsletter{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}
+
+.newsletter h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 0;
+}
+.newsletter p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 70px 150px;
+}
+
+.newsletter_form{
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.14);
+
+}
+
+.newsletter_form input{
+    width: 330px;
+    height: 40px;
+    padding-left: 70px;
+    border: transparent;
+    border-radius: 1px;
+    margin: 6px 0.5px;
+    
+}
+
+.newsletter_form button{
+    width: 150px;
+    height: 50px;
+    background-color: #1F1F1F;
+    border-radius: 4px;
+    border: #00A651;
+    margin: 2px;
+}
+
+.newsletter_form button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.newsletter_form img{
+    padding: 19px 20px;
+    position: absolute;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #1F1F1F;
+    padding: 100px 0;
+}
+
+.footer_logo{
+    width: 370px;   
+}
+
+.footer_logo > p{
+    width: 60%;
+    color: #fff;
+    margin: 50px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.social img{
+    margin: 10px;
+}
+
+.footer_nav1 h4{
+    margin-left: 40px;
+    color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+.footer_nav2 h4{
+    margin-left: 40px;
+    color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+
+
+.footer_nav1 p{
+    line-height: 40px;
+
+}
+
+
+
+.footer_nav2 p{
+    
+    line-height: 40px;
+
+}
+
+.footer a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.contact{
+    width: 250px;   
+
+}
+
+.contact >h4{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+ 
+}
+
+.contact >p{
+    color: #fff;
+   font-size: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
